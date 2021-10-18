@@ -36,3 +36,9 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+.cropped1 {
+    width: 100%; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+}
