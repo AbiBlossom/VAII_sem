@@ -1,7 +1,7 @@
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
+    width: 165px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -13,9 +13,9 @@
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 5px 8px 6px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: #818181;
     display: block;
 }
@@ -27,7 +27,7 @@
 
 /* Style page content */
 .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 165px; /* Same as the width of the sidebar */
     padding: 0px 0px;
 }
 
@@ -39,6 +39,18 @@
 
 .cropped1 {
     width: 100%; /* width of container */
-    height: 200px; /* height of container */
+    height: 150px; /* height of container */
     object-fit: cover;
+}
+
+.head {
+    max-width: 40%; /* width of container */
+    height: auto; /* height of container */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.solid {
+    border-top: 2px solid #bbb;
 }
