@@ -50,16 +50,18 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+/* oddelovac */
 hr.solid {
     border-top: 2px solid #bbb;
 }
 
+/* text na stred */
 .divText {
     display: flex;
     align-items: center;
 }
 
+/* obrazky overlay */
 .hovereffect {
     width: 100%;
     height: 100%;
@@ -140,3 +142,5 @@ hr.solid {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
+
+

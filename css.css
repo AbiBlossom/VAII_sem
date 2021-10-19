@@ -37,12 +37,14 @@
     .sidenav a {font-size: 18px;}
 }
 
+
+/* orezanie obrazka */
 .cropped1 {
     width: 100%; /* width of container */
     height: 150px; /* height of container */
     object-fit: cover;
 }
-
+/* okruhly obrazok na stred */
 .head {
     max-width: 40%; /* width of container */
     height: auto; /* height of container */
@@ -51,6 +53,7 @@
     margin-right: auto;
 }
 
+/* oddelovac */
 hr.solid {
     border-top: 2px solid #bbb;
 }
