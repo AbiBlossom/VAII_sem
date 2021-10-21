@@ -27,11 +27,11 @@
 
 /* Style page content */
 .main {
-    margin-left: 165px; /* Same as the width of the sidebar */
+    margin-left: 165px;
     padding: 0px 0px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -39,8 +39,8 @@
 
 /* orezanie obrazka */
 .cropped1 {
-    width: 100%; /* width of container */
-    height: 150px; /* height of container */
+    width: 100%;
+    height: 150px;
     object-fit: cover;
 }
 
